@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "URI encoding module for Node.js with support for character encoding.",
   "main": "lib/encodeURI.js",
+  "dependencies": {
+    "iconv-lite": "*"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
