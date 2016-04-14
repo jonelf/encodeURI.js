@@ -1,5 +1,5 @@
 {
-  "name": "encodeuri",
+  "name": "encodeuricharenc",
   "version": "0.1.0",
   "description": "URI encoding module for Node.js with support for character encoding.",
   "main": "lib/encodeURI.js",
