@@ -1,0 +1,24 @@
+{
+  "name": "encodeuri",
+  "version": "0.1.0",
+  "description": "URI encoding module for Node.js with support for character encoding.",
+  "main": "lib/encodeURI.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonelf/encodeURI.js.git"
+  },
+  "keywords": [
+    "urlencode",
+    "encodeURIComponent",
+    "encodings"
+  ],
+  "author": "Jonas Elfström <jonelf@gmail.com> (http://alicebobandmallory.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonelf/encodeURI.js/issues"
+  },
+  "homepage": "https://github.com/jonelf/encodeURI.js#readme"
+}
