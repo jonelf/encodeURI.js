@@ -8,16 +8,22 @@ There are [other](https://www.npmjs.com/package/urlencode) URL [encoders](https:
 
 Uses [ES6](https://en.wikipedia.org/wiki/ECMAScript#6th_Edition) features. Has been used with [AWS Lambda (v4.3.2)](http://docs.aws.amazon.com/lambda/latest/dg/programming-model.html).
 
+## Install
+
+```bash
+$ npm install encodeuricharenc
+```
+
 ## Usage
 ```javascript
-  var encodeURI = require('encodeuricharenc');
+  var encURI = require('encodeuricharenc');
 
   // The only encoding for encodeURIComponent() is UTF-8
   var str = "Smörgåsbord";
   var utf8Encoded = encodeURIComponent(str);
   
   // Sometimes you need another encoding
-  var iso88591Encoded = encodeURI(str, 'iso-8859-1');
+  var iso88591Encoded = encURI(str, 'iso-8859-1');
 
   console.log(utf8Encoded);     // Sm%C3%B6rg%C3%A5sbord
   console.log(iso88591Encoded); // Sm%F6rg%E5sbord
