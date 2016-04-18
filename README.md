@@ -1,11 +1,14 @@
 # encodeURI.js
-URI encoding module for Node.js with support for character encoding.
+
+[![NPM](https://nodei.co/npm/encodeuricharenc.png?downloads=true&stars=true)](https://nodei.co/npm/encodeuricharenc/)
+
+URI encoding with support for character encoding.
 
 There are [other](https://www.npmjs.com/package/urlencode) URL [encoders](https://github.com/alsotang/urlencode) that supports character encoding but I couldn't find one that honors the Unreserved Characters in [RFC 3986](https://tools.ietf.org/html/rfc3986#section-2.3).
 
-Uses ES6 features.
+Uses [ES6](https://en.wikipedia.org/wiki/ECMAScript#6th_Edition) features. Has been used with [AWS Lambda (v4.3.2)](http://docs.aws.amazon.com/lambda/latest/dg/programming-model.html).
 
-Example:
+## Usage
 ```javascript
   var encodeURI = require('encodeuricharenc');
 
@@ -19,3 +22,8 @@ Example:
   console.log(utf8Encoded);     // Sm%C3%B6rg%C3%A5sbord
   console.log(iso88591Encoded); // Sm%F6rg%E5sbord
 ```
+
+## TODO
+
+* Decoding
+* Tests
