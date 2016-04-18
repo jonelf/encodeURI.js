@@ -16,6 +16,6 @@ Example:
   // Sometimes you need another encoding
   var iso88591Encoded = encodeURI(str, 'iso-8859-1');
 
-  console.log(utf8Encoded);
-  console.log(iso88591Encoded);
+  console.log(utf8Encoded);     // Sm%C3%B6rg%C3%A5sbord
+  console.log(iso88591Encoded); // Sm%F6rg%E5sbord
 ```
