@@ -1,11 +1,12 @@
 {
   "name": "encodeuricharenc",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "URI encoding module for Node.js with support for character encoding.",
   "main": "lib/encodeURI.js",
   "dependencies": {
     "iconv-lite": "*"
   },
+  "engines" : { "node" : ">=4.3.2" },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,6 +20,7 @@
     "encodings"
   ],
   "author": "Jonas Elfström <jonelf@gmail.com> (http://alicebobandmallory.com/)",
+  "contributors": "Jonas Elfström <jonelf@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jonelf/encodeURI.js/issues"
