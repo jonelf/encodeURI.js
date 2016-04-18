@@ -6,7 +6,7 @@ URI encoding with support for character encoding.
 
 There are [other](https://www.npmjs.com/package/urlencode) URL [encoders](https://github.com/alsotang/urlencode) that supports character encoding but I couldn't find one that honors the Unreserved Characters in [RFC 3986](https://tools.ietf.org/html/rfc3986#section-2.3).
 
-Uses ES6 features.
+Uses [ES6](https://en.wikipedia.org/wiki/ECMAScript#6th_Edition) features. Has been used with [AWS Lambda (v4.3.2)](http://docs.aws.amazon.com/lambda/latest/dg/programming-model.html).
 
 ## Usage
 ```javascript
