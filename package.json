@@ -1,7 +1,7 @@
 {
   "name": "encodeuricharenc",
-  "version": "0.1.6",
-  "description": "URI encoding module for Node.js with support for character encoding.",
+  "version": "0.1.7",
+  "description": "URI encoding with support for character encoding.",
   "main": "lib/encodeURI.js",
   "dependencies": {
     "iconv-lite": "*"
